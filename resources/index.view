@@ -1,13 +1,20 @@
 <svg class="background">
   <defs>
     <symbol id="hrm">
-      <svg class="widget">
-        <image width="30" height="30" href="heart_rate_36px.png" class="hrm-icon" />
+      <svg id="widget" class="widget">
+        <image
+          width="30"
+          height="30"
+          href="heart_rate_36px.png"
+          class="hrm-icon"
+        />
         <text x="$+5" y="$-5" id="widget-text" class="widget-text" />
+        <animate attributeName="opacity" begin="enable" from="0" to="1" dur="1" final="keep" />
+        <animate attributeName="opacity" begin="disable" from="1" to="0" dur="1" final="keep" />
       </svg>
     </symbol>
   </defs>
-  
+
   <svg class="clock">
     <text y="0" id="hours" class="text hours" />
     <text y="$" id="minutes1" class="text minutes" />
