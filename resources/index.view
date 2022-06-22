@@ -1,0 +1,19 @@
+<svg class="background">
+  <defs>
+    <symbol id="hrm">
+      <svg class="widget">
+        <image width="30" height="30" href="heart_rate_36px.png" class="hrm-icon" />
+        <text x="$+5" y="$-5" id="widget-text" class="widget-text" />
+      </svg>
+    </symbol>
+  </defs>
+  
+  <svg class="clock">
+    <text y="0" id="hours" class="text hours" />
+    <text y="$" id="minutes1" class="text minutes" />
+    <text y="$" id="minutes2" class="text minutes" />
+  </svg>
+  <svg class="widgets">
+    <use id="hrm" href="#hrm" />
+  </svg>
+</svg>

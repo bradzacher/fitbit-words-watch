@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0"
+  },
+  "fitbit": {
+    "appUUID": "02a8b12a-ed7d-4d41-9942-488d7b7f8241",
+    "appType": "clockface",
+    "appDisplayName": "Words",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_aod",
+      "access_activity",
+      "run_background"
+    ],
+    "buildTargets": [
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Words"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
